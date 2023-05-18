@@ -3,6 +3,9 @@
 .header-contenedor{
     width: 80%;
 }
+.mobile-menu{
+    display: none;
+}
 .article-reseña > a{
     flex-direction: row;
 }

@@ -27,7 +27,7 @@ header{
 .header-contenedor{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 85%;
     height: auto;
     align-items: center;
     justify-content: space-between
@@ -42,15 +42,20 @@ h1{
     width: 20px;
     height: 20px;
 }
-.mobile-menu{
-    padding-top: 50rem;
+main{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+/* mobile menu */
+.mobile-menu{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
     right: 0;
     width: 100%;
-
-
+    max-width: 50rem;
 }
 .mobile-menu_lista{
     background-color: white;
@@ -59,32 +64,64 @@ h1{
     height: auto;
     padding:1rem 2rem;
 }
-.boton-salir > img{
+.mobile-salir > img{
     width: 15px;
     height: 15px;
-    left: 0;
+    right: 0;
     position: absolute;
-    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .mobile-menu_lista > li{
     list-style: none;
-    font-size: 2rem;
-    padding: 1rem;
+    padding: 3rem;
     margin-top: 3rem;
-    background-color: #fff64d;
+    border:1px solid rgb(179, 178, 178);
+    text-align: center;
+}
+/* desktop menu */
+.desktop-menu{
+    margin-top: 10.4rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
     border: 1px solid var(--color3);
-    border-radius: .5rem;
-    box-shadow: -2px 12px 10px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: -2px 12px 10px -10px rgba(0,0,0,0.75);
-    box-shadow: -2px 12px 10px -10px rgba(0,0,0,0.75);
+}
+.desktop-menu_lista{
+    background-color: white;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    padding:1rem 2rem;
+}
+.desktop-salir > img{
+    width: 15px;
+    height: 15px;
+    right: 0;
+    position: absolute;
+    margin-right: 2rem;
+}
+.desktop-salir a, .mobile-salir a{
+    text-decoration: none;
+}
+.desktop-menu_lista > li{
+    list-style: none;
+    padding: 3rem;
+    margin-top: 3rem;
+    border:1px solid rgb(179, 178, 178);
+    text-align: center;
+    text-decoration: none;
+}
+li > a{
+    text-decoration: none;
+    font-size: var(--fontMT);
+    color: var(--color3);
 }
 .inactive{
     display: none;
-}
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .section-contenedor{
     display:flex;
