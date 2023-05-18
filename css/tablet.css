@@ -1,10 +1,80 @@
-
+:root{
+    --color1:#fff64d;
+    --color2:#4aceed;
+    --color3:#1d2e38;
+    --colo4:white;
+    --fontM:1.4rem;
+    --fontMT:2rem;
+    --fontG:1.8rem;
+    --font-logo: 'Josefin Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 52.6%;
+}
 
 .header-contenedor{
-    width: 80%;
+    width: 97%;
 }
 .mobile-menu{
     display: none;
+}
+/* desktop menu */
+.desktop-menu{
+    margin-top: 10.4rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid var(--color3);
+    border-radius: .6rem;
+}
+.desktop-menu_lista{
+    background-color: white;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    padding:1rem 2rem;
+    border-radius: .6rem;
+}
+.desktop-salir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+.menu-salir{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 50%;
+    padding: .5rem;
+    border:1px solid var(--color3);
+}
+.desktop-salir a, .mobile-salir a{
+    text-decoration: none;
+}
+.desktop-menu_lista > li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8rem;
+    list-style: none;
+    margin-top: 3rem;
+    border:1px solid rgb(179, 178, 178);
+    text-align: center;
+    text-decoration: none;
 }
 .article-reseña > a{
     flex-direction: row;
@@ -31,4 +101,7 @@
     flex-direction: row;
     justify-content:space-between;
     width: 60%;
+}
+.inactive{
+    display: none;
 }

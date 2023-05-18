@@ -11,6 +11,7 @@ div > a {
     font-size: var(--fontMT);
 }
 
+
 .article-reseña p{
     font-size: var(--fontMT);
     width: 50%;
@@ -19,7 +20,7 @@ div > a {
     width: 250px;
     height: 250px;
 }
-.contenedor-img__menu{
+.menu{
     width: 30px;
     height: 30px;
 }

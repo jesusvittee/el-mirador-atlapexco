@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>El mirador Atlepexco</title>
+    <title>El Mirador, Atlepexco</title>
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             </nav>
             <nav class="contenedor-izquierda">
                 <figure class="contenedor-img__menu">
-                    <img src="./imagenes/grid-rules.png" alt="menu">
+                    <img src="./imagenes/grid-rules.png" alt="menu"  class="menu">
                 </figure>
             </nav>
         </nav>
@@ -30,9 +30,6 @@
     <main>
         <nav class="mobile-menu inactive">
             <lu class="mobile-menu_lista">
-                <figure class="mobile-salir">
-                    <img src="./imagenes/salir.png" alt="">
-                </figure>
                 <li>
                   <a href="">Nueva Generacion</a>
                 </li>
@@ -49,14 +46,14 @@
                     <a href="">Personajes Historicos</a>
                 </li> 
                 <li>
-                    Ver Fotos
+                    <a href="">Ver Fotos</a> 
                 </li>
             </lu>
         </nav>
         <nav class="desktop-menu inactive">
             <lu class="desktop-menu_lista">
                 <figure class="desktop-salir">
-                    <img src="./imagenes/salir.png" alt="">
+                    <img class="menu-salir"src="./imagenes/salir.png" alt="">
                 </figure>
                 <li>
                   <a href="">Nueva Generacion</a>
@@ -74,7 +71,7 @@
                     <a href="">Personajes Historicos</a>
                 </li> 
                 <li>
-                    Ver Fotos
+                    <a href="">Ver Fotos</a> 
                 </li>
             </lu>
         </nav>
@@ -121,7 +118,7 @@
                 </label>
                 <label for="comentario">
                     <span>Comentar</span>
-                    <input type="text" id="comentario">
+                    <input type="text" id="comentario" class="input-comentar">
                 </label>
                 <label for="gmail">
                     <span>Introduce tu correo electronico</span>
@@ -153,5 +150,6 @@
                 <p> Web El Mirador sin fines de lucro</p>  
         </section>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
