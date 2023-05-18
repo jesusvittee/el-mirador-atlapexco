@@ -5,6 +5,7 @@
     --colo4:white;
     --fontM:1.4rem;
     --fontMT:2rem;
+    --fontG:1.8rem;
     --font-logo: 'Josefin Sans', sans-serif;
 }
 *{
@@ -102,7 +103,7 @@ main{
     align-items: center;
 }
 h2{
-    font-size: 2rem;
+    font-size: var(--fontMT);
     margin: 1.5rem 0;
     text-align: center;
 }
@@ -127,6 +128,11 @@ h2{
     border-radius: .5rem;
     margin: 1rem 0;
 }
+.article-reseña p{
+    width: 80%;
+    padding-left: 1.5rem;
+    font-size: var(--fontM);
+}
 .article-fotos{
     display: flex;
     flex-direction: column;
@@ -140,9 +146,7 @@ h2{
 }
 .article-imagen{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction:column;
 }
 .article-temas{
     display: flex;

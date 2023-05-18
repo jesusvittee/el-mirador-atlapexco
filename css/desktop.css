@@ -1,0 +1,25 @@
+h1{
+    font-size: 4rem;
+}  
+h2{
+    font-size: 2.4rem;
+}
+span{
+    font-size: var(--fontMT);
+}
+div > a {
+    font-size: var(--fontMT);
+}
+
+.article-reseña p{
+    font-size: var(--fontMT);
+    width: 50%;
+}
+.article-fotos img{
+    width: 250px;
+    height: 250px;
+}
+.contenedor-img__menu{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,31 @@
+
+
+.header-contenedor{
+    width: 80%;
+}
+.article-reseña > a{
+    flex-direction: row;
+}
+.article-reseña p{
+    font-size: var(--fontMT);
+}
+.article-reseña img{
+    margin:0 2rem;
+}
+.article-imagen{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article-fotos img{
+    width: 200px;
+    height: 200px;
+}
+.article-social > div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 60%;
+}
