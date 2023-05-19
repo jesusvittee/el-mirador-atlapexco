@@ -1,0 +1,19 @@
+
+.article-reseña{
+    width: 70%;
+}
+h2{
+    font-size: 4rem;
+}
+.article-reseña  img{
+    width: 200px;
+    height: 200px;
+    border-radius: .5rem;
+    margin: 1rem 0;
+}
+.article-reseña p{
+    width: 80%;
+    padding-left: 1.5rem;
+    font-size:3.2rem;
+    margin-top: 3rem;
+}

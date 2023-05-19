@@ -76,6 +76,9 @@ html{
     text-align: center;
     text-decoration: none;
 }
+.section-contenedor > article{
+    width: 80%;
+}
 .article-reseña > a{
     flex-direction: row;
 }
@@ -86,7 +89,7 @@ html{
     margin:0 2rem;
 }
 .article-imagen{
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

@@ -10,15 +10,19 @@ span{
 div > a {
     font-size: var(--fontMT);
 }
-
-
+.section-contenedor > article{
+    width: 70%;
+}
+.article-imagen{
+    width: 70%;
+}
 .article-reseña p{
     font-size: var(--fontMT);
     width: 50%;
 }
 .article-fotos img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 .menu{
     width: 30px;

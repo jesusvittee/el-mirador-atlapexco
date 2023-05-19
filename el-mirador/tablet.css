@@ -1,0 +1,19 @@
+:root{
+    --color1:#fff64d;
+    --color2:#4aceed;
+    --color3:#1d2e38;
+    --colo4:white;
+    --fontM:1.6rem;
+    --fontMT:2rem;
+    --fontG:3rem;
+    --font-logo: 'Josefin Sans', sans-serif;
+}
+.article-reseña  img{
+    width: 350px;
+    height: 350px;
+
+}
+.article-reseña p{
+    width: 80%;
+    font-size: var(--fontG);
+}

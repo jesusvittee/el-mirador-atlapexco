@@ -1,0 +1,18 @@
+.article-imagen{
+    grid-template-columns: repeat(auto-fill, 240px);
+ }
+ 
+.contenedor-foto{
+    width: 240px;
+}
+.article-fotos img{
+    width: 250px;
+    height: 250px;
+}
+.article-imagen{
+    place-content: center;
+    gap: 3rem;
+ }
+.footer-content p {
+    font-size: 2rem;
+ }
