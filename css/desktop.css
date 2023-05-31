@@ -4,6 +4,13 @@ h1{
 h2{
     font-size: 2.4rem;
 }
+.article-social > p{
+    width: 70%;
+    padding-bottom: 4rem;
+}
+ul{
+    width: 60%;
+}
 span{
     font-size: var(--fontMT);
 }
